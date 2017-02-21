@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+}
+
+header	{
+	background-color: orange;
+	margin-bottom: 40px;
+
+}
+
+.top_row {
+	background-color: orange;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1000px;
+	color: black;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+section {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.runner, .travel, .pinkfloyd, .drum, .tube, .starwars {
+	width: 100%;
+	/*border: 1px solid lightgrey;*/
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+	border-radius: 60%;
+}
+
+.content {
+	padding: 20px;
+}
+
+h2 {
+	margin: 0;
+	font-size: 110%;
+}
+
+.content p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+body {
+	color: rgb(249, 247, 209);
+	background-color: black;
+}
+.myLinks img {
+  width: 20px;
+  padding: 0;
+}
+
+.myLinks p {
+  display: inline;
+  font-size: small;
+}
+
+.myLinks {
+  background-color: black;
+  border: 1px solid light gray;
+  border-radius: 30px;
+  color:  white;
+  opacity: 0.8;
+  filter: alpha(opacity=8);
+  box-shadow: 10px 10px 30px 10px black;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  max-width: 100px;
+  display: inline;
+  padding: 5px 5px 2px 5px;
+}
+
+footer {
+  display: inline-block;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+img:hover {
+ box-shadow: 2px 2px 2px white;
+ transform: translateY(3px);
+}
+
+button:active {
+ box-shadow: 2px 2px 2px white;
+ transform: translateY(3px);
+}
