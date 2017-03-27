@@ -20,11 +20,13 @@ header	{
 
 h1 {
 	margin-bottom: 30px;
+	font-size: 69px;
+	text-align: center;
 }
 
 p {
 	margin-top: 0;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 section {
@@ -54,6 +56,7 @@ section img {
 h2 {
 	margin: 0;
 	font-size: 110%;
+	font-weight: bolder;
 }
 
 .content p {
@@ -63,19 +66,38 @@ h2 {
 
 body {
 	color: rgb(249, 247, 209);
-	background-color: black;
+	/*background-color: black;*/
+	background-image: url("images/background.jpg");
+	background-position: center;
+	background-size: cover;
 }
+
+body > .backgroudimg {
+	opacity: 0.4;
+}
+
 .myLinks img {
-  width: 20px;
+  width: 40px;
   padding: 0;
+	border-radius: 100%;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
-.myLinks p {
-  display: inline;
+.finale p {
+  display: inline-block;
   font-size: small;
+	margin: 40px 0px 40px 20px;
+	background-color: black;
+	border: 1px solid light gray;
+	border-radius: 30px;
+	opacity: 0.8;
+	filter: alpha(opacity=8);
+	box-shadow: 10px 10px 30px 10px black;
+	font-family: 'Andika', sans-serif;
 }
 
-.myLinks {
+/*.myLinks {
   background-color: black;
   border: 1px solid light gray;
   border-radius: 30px;
@@ -87,13 +109,20 @@ body {
   font-family: 'Andika', sans-serif;
   max-width: 100px;
   display: inline;
-  padding: 5px 5px 2px 5px;
+  padding: 5px 5px 2px 5px;*/
 }
 
 footer {
-  display: inline-block;
-	margin-bottom: 40px;
-	margin-top: 40px;
+  display: inline;
+	margin: 40px 0px 40px 10px;
+	background-color: black;
+  border: 1px solid light gray;
+  border-radius: 30px;
+	opacity: 0.8;
+	filter: alpha(opacity=8);
+	box-shadow: 10px 10px 30px 10px black;
+	text-align: center;
+	font-family: 'Andika', sans-serif;
 }
 
 img:hover {
@@ -104,4 +133,15 @@ img:hover {
 button:active {
  box-shadow: 2px 2px 2px white;
  transform: translateY(3px);
+}
+
+.about, .contact {
+	font-weight: bolder;
+	font-size: 19px;
+	text-decoration: underline;
+}
+
+.contact {
+	display: inline-block;
+	margin-right: 30px;
 }
