@@ -4,24 +4,22 @@
 }
 
 header	{
-	background-color: orange;
 	margin-bottom: 40px;
-
 }
 
 .top_row {
-	background-color: orange;
+	background-image: url("images/bckorange.jpg");
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
 	max-width: 1000px;
 	color: black;
+	margin-top: 40px;
 }
 
 h1 {
 	margin-bottom: 30px;
 	font-size: 49px;
-	text-align: center;
 }
 
 p {
@@ -38,7 +36,6 @@ section {
 
 .moog, .react, .runner, .travel, .tictactoe, .pinkfloyd, .drum, .tube, .starwars {
 	width: 100%;
-	/*border: 1px solid lightgrey;*/
 	margin-top: 0px;
 	margin-bottom: 20px;
 }
@@ -46,11 +43,11 @@ section {
 section img {
 	width: 100%;
 	height: 180px;
-	border-radius: 10%;
+	border: 2px solid white;
 }
 
 .content {
-	padding: 20px;
+	padding: 20px 20px 20px 0px;
 }
 
 h2 {
@@ -66,8 +63,7 @@ h2 {
 
 body {
 	color: rgb(249, 247, 209);
-	/*background-color: black;*/
-	background-image: url("images/background.jpg");
+	background-image: url("images/bckggreyblack.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -85,16 +81,13 @@ body > .backgroudimg {
 }
 
 .finale p {
-  display: inline-block;
   font-size: small;
 	margin: 40px 0px 40px 20px;
-	background-color: black;
-	border: 1px solid light gray;
 	border-radius: 30px;
 	opacity: 0.8;
 	filter: alpha(opacity=8);
-	box-shadow: 10px 10px 30px 10px black;
 	font-family: 'Andika', sans-serif;
+	text-align: center;
 }
 
 /*.myLinks {
@@ -113,14 +106,11 @@ body > .backgroudimg {
 }
 
 footer {
-  display: inline;
 	margin: 40px 0px 40px 10px;
-	background-color: black;
   border: 1px solid light gray;
   border-radius: 30px;
 	opacity: 0.8;
 	filter: alpha(opacity=8);
-	box-shadow: 10px 10px 30px 10px black;
 	text-align: center;
 	font-family: 'Andika', sans-serif;
 }
@@ -143,7 +133,6 @@ button:active {
 .about, .contact {
 	font-weight: bolder;
 	font-size: 19px;
-	text-decoration: underline;
 }
 
 .contact {
@@ -152,8 +141,15 @@ button:active {
 }
 
 #page-header img {
-    width: 50px;
-    border-radius: 10%;
-    margin-right: 8px;
+    width: 240px;
+    border-radius: 1%;
+    margin-right: 19px;
     vertical-align: middle;
+		float: left;
+		margin-top: 80px;
+		border: 2px solid white;
+}
+
+footer p {
+	color: white;
 }
