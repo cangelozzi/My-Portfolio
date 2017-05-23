@@ -63,9 +63,10 @@ h2 {
 
 body {
 	color: rgb(249, 247, 209);
-	background-image: url("images/bckggreyblack.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/background.jpg");
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 body > .backgroudimg {
