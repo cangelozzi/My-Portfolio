@@ -34,7 +34,7 @@ section {
 	padding-left: 20px;
 }
 
-.moog, .react, .runner, .travel, .tictactoe, .pinkfloyd, .drum, .tube, .starwars {
+.moog, .hex, .teamcanada, .travel, .next, .pinkfloyd, .alien_game, .starship {
 	width: 100%;
 	margin-top: 0px;
 	margin-bottom: 20px;
@@ -104,7 +104,7 @@ body > .backgroudimg {
   max-width: 100px;
   display: inline;
   padding: 5px 5px 2px 5px;*/
-}
+/* } */
 
 footer {
 	margin: 40px 0px 40px 10px;
